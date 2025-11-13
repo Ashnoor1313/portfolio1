@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashnoor Singh — Portfolio</title>
+    <meta name="description" content="Ashnoor Singh — Full-stack AI Developer (FastAPI, React, TensorFlow)" />
+    <meta name="theme-color" content="#071122" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Favicon (optional) -->
+    <link rel="icon" href="/favicon.ico" />
+  </head>
+
+  <body>
+    <!-- React root -->
+    <div id="root"></div>
+
+    <!-- Decorative background elements (aria-hidden) -->
+    <div class="bg-aqua-band" aria-hidden="true"></div>
+    <div class="bg-dots" aria-hidden="true"></div>
+
+    <div class="bg-crystals" aria-hidden="true">
+      <div class="c1" aria-hidden="true"></div>
+      <div class="c2" aria-hidden="true"></div>
+      <div class="c3" aria-hidden="true"></div>
+    </div>
+
+    <div class="bg-grain" aria-hidden="true"></div>
+
+    <!-- Small inline style to ensure body-level backgrounds don't flash unstyled -->
+    <style>
+      html,body{height:100%;background:#071122;margin:0}
+      /* keep the decorative elements behind everything until CSS loads */
+      .bg-aqua-band,.bg-dots,.bg-crystals,.bg-grain{opacity:0}
+    </style>
+
+    <!-- Your app entry -->
+    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- After the app bundles, Gut-will be visible; we allow CSS to fade in by removing inline opacity via JS in main.jsx if desired -->
+  </body>
+</html>
