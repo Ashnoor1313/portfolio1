@@ -63,21 +63,31 @@ const projects = [
     ],
   },
   {
-    id: "qr-authenticator",
-    title: "QR Code Authenticator",
-    year: "2025",
-    description: "CNN-based QR verification system with 97% accuracy for real-time security validation.",
-    longDescription: "Built a sophisticated QR code authentication system leveraging CNN for pattern recognition with industry-leading accuracy rates.",
-    accuracy: "97%",
-    technologies: ["CNN", "Computer Vision", "Python", "Security"],
-    github: "https://github.com/Ashnoor1313/QR-Code-authenticator.git",
-    highlights: [
-      "97% verification accuracy",
-      "Real-time authentication",
-      "Robust security measures",
-      "Low latency processing",
+    "id": "alertify",
+    "title": "Alertify — AI Fraud Detection System",
+    "year": "2025",
+    "description": "AI-driven fraud detection platform using Machine Learning, Deep Learning, and NLP to identify malicious QR codes, URLs, UPI IDs, SMS, and phone numbers.",
+    "longDescription": "Developed a production-ready fraud detection system combining CNN-based image analysis and NLP-based text classification. Implemented FastAPI backend APIs, real-time inference engine, and a React-based UI. Optimized models for accuracy, scalability, and low-latency deployment.",
+    "technologies": [
+      "Machine Learning",
+      "Deep Learning",
+      "CNN",
+      "NLP",
+      "Python",
+      "FastAPI",
+      "React",
+      "JavaScript",
+      "Model Deployment",
+      "API Development"
     ],
-  },
+    "github": "https://github.com/Ashnoor1313/Alertifynew.git",
+    "highlights": [
+      "Real-time fraud detection",
+      "Multi-modal ML pipeline",
+      "High accuracy model",
+      "Scalable API architecture"
+    ]
+  },  
   {
     id: "querysense",
     title: "QuerySense",
