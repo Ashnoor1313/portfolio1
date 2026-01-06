@@ -24,18 +24,32 @@ function Badge({ children, className = "" }) {
 const experiences = [
   {
     id: "hukkido",
-    title: "Data Science Intern",
+    title: "Software Development Engineer Intern",
     company: "Hukkido",
     period: "Jul 2025 – Sep 2025",
-    description: "Worked on data scraping, cleaning, and ML model building using TensorFlow, PyTorch, and NLP techniques.",
-    achievements: [
-      "Developed automated data scraping pipelines for large-scale data collection",
-      "Built and deployed ML models with TensorFlow and PyTorch achieving high accuracy",
-      "Implemented NLP techniques for text analysis and sentiment classification",
-      "Optimized data cleaning workflows reducing processing time by 40%",
+    description:
+      "Worked on full-stack development and machine learning pipelines, building scalable systems and production-ready services.",
+    achievements: ["Built full-stack features using the MERN stack with reusable React components and REST APIs",
+      "Designed optimized MongoDB schemas and aggregation pipelines for high-volume data",
+      "Developed end-to-end ML pipelines using Python, training NLP and classification models with TensorFlow and PyTorch",
+      "Deployed FastAPI microservices using Docker with CI/CD and cloud-ready workflows"
     ],
-    technologies: ["TensorFlow", "PyTorch", "NLP", "Python", "Data Scraping"],
-  },
+    technologies: [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "NLP",
+      "FastAPI",
+      "Docker",
+      "CI/CD"
+    ]
+  }
+  
+  ,
   {
     id: "toletglobe",
     title: "Data Analyst Intern",
