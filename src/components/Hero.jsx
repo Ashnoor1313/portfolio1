@@ -85,7 +85,7 @@ export default function HeroSection() {
           {/* Resume CTA */}
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <a
-              href="https://drive.google.com/file/d/18Q1825IS3ct5OI2zN09B07G9bNkfgrC9/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1twJ_pEPpVtgtSDZMQ8j_ZvJRGmrZMrh8/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-6 py-3 rounded-full text-base md:text-lg font-semibold bg-gradient-to-r from-blue-400 to-pink-400 text-black shadow-lg hover:scale-[1.02] transition-transform"
