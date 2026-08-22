@@ -33,7 +33,7 @@ const experiences = [
     id: "ey",
     company: "EY (Ernst & Young)",
     role: "Software Development Engineer Intern",
-    period: "Feb 2026 – Present",
+    period: "Feb 2026 – May 2026",
     current: true,
     logo: "/logos/ey.png",
     description:

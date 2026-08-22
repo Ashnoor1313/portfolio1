@@ -47,6 +47,40 @@ function SmallButton({ children, className = "", href = "#", ...props }) {
 
 const projects = [
   {
+    id: "resoraai",
+    title: "ResoraAI",
+    year: "2026",
+  
+    description:
+      "Explainable AI-powered resume intelligence platform with deterministic ATS scoring and personalized AI recruiter analysis.",
+  
+    longDescription:
+      "Built an explainable resume intelligence SaaS platform featuring a deterministic 7-factor ATS scoring engine and 4 FAANG-style AI recruiter personas powered by Gemini 2.5. The system was benchmarked across 8+ role tracks and combines rule-based analysis with generative AI to provide actionable resume insights.",
+  
+    technologies: [
+      "React.js",
+      "TypeScript",
+      "FastAPI",
+      "PostgreSQL",
+      "SQLite",
+      "Gemini API",
+      "TF-IDF",
+      "REST APIs"
+    ],
+  
+    github: "https://github.com/Ashnoor1313/ResoraAI.git",
+  
+    live: "https://resoraai.onrender.com/",
+  
+    highlights: [
+      "Deterministic 7-factor ATS scoring engine",
+      "4 AI recruiter personas powered by Gemini 2.5",
+      "Benchmarked across 8+ role tracks",
+      "Explainable and actionable resume analysis",
+      "Full-stack SaaS platform"
+    ],
+  },
+  {
     id: "potatoguard",
     title: "PotatoGuard",
     year: "2025",
@@ -55,6 +89,8 @@ const projects = [
     accuracy: "95%",
     technologies: ["TensorFlow", "CNN", "React", "Docker", "Render"],
     github: "https://github.com/Ashnoor1313/PotatoGuard.git",
+    live: "https://potatoguard.onrender.com/",
+  
     highlights: [
       "95% disease classification accuracy",
       "Real-time image processing",
@@ -81,6 +117,8 @@ const projects = [
       "API Development"
     ],
     "github": "https://github.com/Ashnoor1313/Alertifynew.git",
+    live: "https://alertifynew-1.onrender.com/",
+  
     "highlights": [
       "Real-time fraud detection",
       "Multi-modal ML pipeline",
@@ -191,7 +229,7 @@ export default function ProjectsSection() {
                   <SmallButton href={project.github} data-testid={`button-${project.id}-github`}>
                     <Github className="w-4 h-4" /> GitHub
                   </SmallButton>
-                  <SmallButton href={project.github} data-testid={`button-${project.id}-view`}>
+                  <SmallButton href={project.live} data-testid={`button-${project.id}-view`}>
                     <ExternalLink className="w-4 h-4" /> View
                   </SmallButton>
                 </CardFooter>
